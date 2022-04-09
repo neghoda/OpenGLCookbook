@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{9d2e064c-2ee3-4bea-97e3-3862eefffb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{bd850e9f-f990-4323-bfc6-f41d942e6d03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\scenebasic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\scenebasic_attrib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\scenebasic_debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\scenebasic_uniform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\scenebasic_uniformblock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\cube.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\glslprogram.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\glutils.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\objmesh.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\plane.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\sphere.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\teapot.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\teapotpatch.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\texture.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\torus.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\trianglemesh.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\include\glad\glad.c">
+      <Filter>External</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\scenebasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\scenebasic_attrib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\scenebasic_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\scenebasic_uniform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\scenebasic_uniformblock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\aabb.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\cookbookogl.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\cube.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\drawable.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\glslprogram.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\glutils.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\objmesh.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\plane.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\scene.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\scenerunner.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\sphere.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\teapot.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\teapotdata.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\teapotpatch.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\texture.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\torus.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\trianglemesh.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\include\utils.h">
+      <Filter>External</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\basic.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\basic.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\basic_uniform.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\basic_uniform.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\basic_uniformblock.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\basic_uniformblock.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\basic_uniformblock_41.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\basic_uniformblock_41.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
